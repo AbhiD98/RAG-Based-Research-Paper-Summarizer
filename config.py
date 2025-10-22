@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # AWS Bedrock Configuration
-AWS_REGION = "ap-south-1"
-BEDROCK_INFERENCE_ID = "apac.anthropic.claude-sonnet-4-20250514-v1:0"
+AWS_REGION = "Region"
+BEDROCK_INFERENCE_ID = "Model ID"
 
 # RAG Configuration
 CHUNK_SIZE = 500
